@@ -1,0 +1,97 @@
+<div class="container board active" id="createclass">
+		<form class="form-horiztonal registerform">
+			<fieldset>
+				<h1 class="rf">Create A Class</h1>
+				<div class="control-group ">
+					<label class="control-label col-sm-4 col-md-4 pad" for="inputFname">Class Subject</label>
+					<div class="controls col-sm-6 col-md-6">
+						<input id="inputFname" name="inputFname" type="text" placeholder="Class Subject" class="form-control">
+
+					</div>
+				</div>
+
+				<!-- Text input-->
+				<div class="control-group">
+					<label class="control-label col-sm-4 col-md-4 pad" for="inputLname">Class Number</label>
+					<div class="controls col-sm-6 col-md-6">
+						<input id="inputLname" name="inputLname" type="text" placeholder="Class Number" class="form-control">
+
+					</div>
+				</div>
+
+				<!-- Text input-->
+
+				<!-- Password input-->
+				<div class="control-group">
+					<label class="control-label col-sm-4 col-md-4 pad" for="inputPass">Unique Access Code</label>
+					<div class="controls col-sm-6 col-md-6">
+						<input id="inputPass" name="inputPass" type="password" placeholder="Unique Access Code" class="form-control">
+
+					</div>
+				</div>
+
+				<!-- Password input-->
+
+				<!-- Select Basic -->
+
+				<div class='control-group'>
+					<label class="control-label col-xs-12 col-sm-12 col-md-4 pad" for="message_body">Class Description</label>
+					<div class="controls col-xs-12 col-sm-12 col-md-6">
+						<textarea class="form-control " placeholder="Class Description" id="message_body" name="message[body]" rows="8">
+						</textarea></div>
+					</div>
+					<!-- Button -->
+					<div class="control-group">
+						<label class="control-label  " for="submit"></label>
+						<div class="controls col-sm-12 col-md-12">
+							<button id="submit" name="submit" class="btn btn-success btn-lg submit show1">Submit</button>
+						</div>
+					</div>
+
+				</fieldset>
+			</form>
+		</div>
+		<div>
+
+			<div class="container board active" id="selectclass">
+				<form class="form-horizontal">
+					<fieldset>
+						<!-- Appended Input-->
+						<div class="form-group">
+							<label class="col-md-12 control-label heading_s" style="text-align: center"for="appendedtext"><h1>Select A Class</h1></label>
+							<div class="col-md-12">
+								<div class="input-group guide2">
+									<input id="Searchtext" name="Searchtext" class="form-control" placeholder="Search" type="text">
+									<span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+				<div class="col-xs-6 col-sm-6 guide">
+					<div class="well guide2">
+						<ul class="nav">
+							<li class="active"><a href="#">Maths</a></li>
+							<li><a href="#">English 1053 Rm 1241432</a></li>
+							<li><a href="#">Art and Design</a></li>
+							<li><a href="#">Drama</a></li>
+							<li><a href="#">Music</a></li>
+							<li><a href="#">Physics</a></li>
+							<li><a href="#">Chemistry</a></li>
+							<li><a href="#">Biology</a></li>
+							<li><a href="#">Home economics</a></li>
+							<li><a href="#">Physical Education</a></li>
+							<li><a href="#">Computing Science</a></li>
+							<li><a href="#">French</a></li>
+							<li><a href="#">German</a></li>
+							<li><a href="#">Mandarin</a></li>
+							<li><a href="#">Religious Education</a></li>
+							<li><a href="#">Modern Studies</a></li>
+							<li><a href="#">Geography</a></li>
+							<li><a href="#">History</a></li>
+							<li><a href="#">Creative computing</a></li>
+							<li><a href="#">Craft, Design and Technology</a></li>
+						</ul>
+					</div><!--/.well -->
+				</div><!--/span-->
+			</div><!--/row-->	

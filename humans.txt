@@ -1,0 +1,21 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Rodrigo Vega
+    David Pugh
+    Diego Rasgado
+    Ryan Rapini
+    Sercan Buyukkomurcu
+    Xiang Pan
+    
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr

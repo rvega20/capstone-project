@@ -1,0 +1,27 @@
+Student.php needs to insert ClassID and UserID into the capstone.registrations database. --()
+
+Student.php only shows the quizzes available for one class which needs to be fixed. --()
+
+Student.php needs to have quizzes greyed out after their due date has passed. --()
+
+On the Student.php registered class table I would like the total grade to display as a letter grade and possibly right next to the class name. --()
+
+Teachers need a result page. Teacher can currently view gradebook for a specific class still need an overall GradeBook --(Rodrigo)
+
+Upload a photo of yourself for the contact_us page. --(Rodrigo, David, Sercan)
+
+Array bug that doesn't allow multiple questions needs to be fixed. --(Rapini)
+
+Database needs cleaning.
+
+ 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+What is due on the day of expo:
+
+Log book (needs to be signed by everyone, Dr. Sun's on the front page if possible or last page) -- Try to get these done by wednesday. 
+Tri-fold
+Final project report (Diego for all the credit in writing the report)
+brochure (to turn in one for the entire group) -- We need a nice mock quiz to show off for the back of the brochure and a nice mock student page(Quizzes displayed right now have weird names). 
+Also if anyone has a nice display 24+ inches that could we could use on expo day, let me(Rodrigo) know. 
+
+

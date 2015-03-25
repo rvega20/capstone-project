@@ -1,0 +1,33 @@
+Instead of "Name" field in "Classes", should it have "Department" and "CourseNumber"?
+	Example: "ENGT4050" -> "ENGT", "4050"
+
+Timestamps?
+
+Option to ask question one at a time?  Option for real time quizzes where teacher can decide when to display 'next' question?
+
+Option to add weights to quizzes? That lets teachers make a quiz worth 20 percent of a students grade without having to weight each question.
+
+Quiz database:
+
+StudentResponse, or QuestionAttempt table
+	"AnswerID", "StudentID", "QuestionID" fields.
+	Added to database when student submits a quiz.
+
+QuizAttempt(?) table
+	When student submits a quiz, an entry in this table is created.
+	Fields are "PointsPossible", "PointsScored", "StudentID", "QuizID"
+	Querys are done to determine which questions in the quiz the student answered correctly.
+	The "PointsPossible" and "PointsScored" fields are populated.
+
+When students view or teacher views a students grades, a students QuizAttempts are totaled and math is done to show the students grade.
+
+For partial credit, instead of "IsCorrect" field in "Answers", it could be replaced with "PartialCredit" which could be 0 for wrong, 1 for correct, 0.5 for partial, etc.
+"PointValue" in "Questions" could then be renamed to "MaxPointValue"
+This model would work better with non multiple choice questions in the future?
+
+Should unanswered questions be allowed?
+In SAT tests, you can leave a question blank.  You are also penalized 0.25% of the questions value if you choose a wrong answer.  (Designed to stop people from guessing)
+
+ER Diagram: https://editor.ponyorm.com/user/videop/Capstone
+The many/many and one/many relationships have an added attribute where a join table should go..
+
